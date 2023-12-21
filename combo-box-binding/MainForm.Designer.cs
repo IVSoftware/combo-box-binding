@@ -33,12 +33,14 @@
             // 
             // comboBox
             // 
+            comboBox.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox.Font = new Font("Segoe UI", 12F);
             comboBox.FormattingEnabled = true;
             comboBox.Location = new Point(48, 88);
             comboBox.Name = "comboBox";
             comboBox.Size = new Size(349, 40);
             comboBox.TabIndex = 0;
+            comboBox.TabStop = false;
             // 
             // MainForm
             // 
